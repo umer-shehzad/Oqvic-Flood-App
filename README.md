@@ -1,8 +1,9 @@
-# React + Vite
+<h1 align="center"> Oqvic Flood App </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- I've built this app using the **REACT** technology for a client from New York!
 
-Currently, two official plugins are available:
+- The **Oqvic Flood App** is a web-based solution.
+  
+- It help users to claim insurance of house suffering from flood.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Screenshots of working application available in **public/app-screenshots** folder.
