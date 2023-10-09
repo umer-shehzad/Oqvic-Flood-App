@@ -20,7 +20,7 @@ const Nav = () => {
             alt="logo"
           />
         </Navbar.Brand>
-        <Navbar.Collapse className="justify-content-end">
+        <div className="justify-content-sm-start justify-content-lg-end">
           <div className='d-grid'>
             <Navbar.Text className='contactText pt-0 pb-1'>
               contact us:
@@ -29,7 +29,7 @@ const Nav = () => {
               <PhoneIcon /> 201-898-2013
             </Navbar.Text>
           </div>
-        </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
   )
