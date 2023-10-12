@@ -36,7 +36,7 @@ const HomeForm = () => {
   return (
     <Form className='formStyle' onSubmit={handleSubmit}>
       <div className="row">
-        <div class="col-md-5 col-sm-5">
+        <div class="col-5 col-lg-5 col-md-4 col-sm-4">
           <label class="radio">
             <input 
               type="radio" 
@@ -48,7 +48,7 @@ const HomeForm = () => {
             <span><UserIcon/>Individual</span>
           </label>
         </div>
-        <div class="col-md-5 col-sm-5">
+        <div class="col-5 col-lg-5 col-md-4 col-sm-4">
           <label class="radio">
             <input 
               type="radio" 
@@ -62,7 +62,7 @@ const HomeForm = () => {
         </div>
       </div>
 
-      <Form.Group className="mb-4 mt-3 col-md-10 col-sm-10" controlId="email">
+      <Form.Group className="mb-4 mt-3 col-10 col-lg-10 col-md-8 col-sm-8" controlId="email">
         <Form.Control 
           className='emailStyle' 
           type="email" 

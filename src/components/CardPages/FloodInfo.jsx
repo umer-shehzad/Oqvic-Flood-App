@@ -6,45 +6,45 @@ import React from 'react';
 const FloodInfo = ({ formData, setFormData }) => {
     return (
         <div>
-            <p className='para-page6 d-flex justify-content-center para1-page7 mb-4'>Flood loss w/in 5 years or repetitive loss?</p>
-            <div className="row d-flex justify-content-center row-gap-custom">
-                <div class="col-md-3">
-                    <label class="radio radio-page6">
+            <p className='para-page6 d-flex justify-content-center mt-5 mb-0'>Flood loss w/in 5 years or repetitive loss?</p>
+            <div className="row d-flex justify-content-center
+            mt-2 mt-lg-3 mt-md-3 mt-sm-3
+            gap-lg-3 gap-md-3 gap-sm-3">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                    <label class="radio">
                         <input
                             id='Red'
                             type="radio"
                             name="radio"
                             value="Yes, it is"
-                            className='input-page6'
                             checked={formData.floodLoss === 'Yes, it is'}
                             onChange={(e) => setFormData({ ...formData, floodLoss: e.target.value })}
                         />
-                        <span className='span-page6 ps-5'>Yes, it is </span>
+                        <span className='span-page6 ps-lg-5 ps-md-4 ps-sm-3 ps-2 w-auto'>Yes, it is </span>
                     </label>
                 </div>
-                <div class="col-md-3">
-                    <label class="radio radio-page6">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                    <label class="radio">
                         <input
                             type="radio"
                             name="radio"
                             value="No, it is"
-                            className='input-page6'
                             checked={formData.floodLoss === 'No, it is'}
                             onChange={(e) => setFormData({ ...formData, floodLoss: e.target.value })}
                         />
-                        <span className='span-page6 ps-5'> No, it is </span>
+                        <span className='span-page6 ps-lg-5 ps-md-4 ps-sm-3 ps-2 w-auto'> No, it is </span>
                     </label>
                 </div>
             </div>
 
-            <p className='para-page6 d-flex justify-content-center para2-page7 mb-4'>Number of Floors above ground?</p>
+            <p className='para-page6 d-flex justify-content-center mb-4 mt-5'>Number of Floors above ground?</p>
 
             <div className="row d-flex justify-content-center">
                 <input
                     type="number"
                     name="radio"
                     value={formData.noOfFloors}
-                    className='input-number-page7'
+                    className='input-number-page7 w-50'
                     onChange={(e) => setFormData({ ...formData, noOfFloors: e.target.value })}
                 />
             </div>

@@ -10,13 +10,15 @@ import QuadplexImage from '../../assets/quadplex.png';
 const OccupancyTypeInfo = ({ formData, setFormData }) => {
     return (
         <>
-            <Card.Body className='d-flex flex-column align-items-center'>
-                <Card.Title className='cardTitle p1-page3 mt-3'>Occupancy Type</Card.Title>
-                <Card.Subtitle className="cardSubTitle p2-page3 mt-2">Select the occupancy type of the property</Card.Subtitle>
+            <Card.Body className=''>
+                <Card.Title className='cardTitle mt-3'>Occupancy Type</Card.Title>
+                <Card.Subtitle className="cardSubTitle mt-2">Select the occupancy type of the property</Card.Subtitle>
             </Card.Body>
-            <div className='construction-type'>
-                <div className="row row-gap-custom justify-content-center">
-                    <div class="col-md-2">
+            <div className=''>
+                <div className="row justify-content-center
+                    mt-2 mt-lg-4 mt-md-4 mt-sm-4 mb-sm-3 mb-3
+                    gap-lg-3 gap-md-3 gap-sm-3">
+                    <div class="col-md-2 col-sm-4 col-5">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -25,13 +27,13 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === 'Single Family'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='construction-span homeContent '>
-                                <img src={SingleHomeImage} alt='SingleHomeImage' className='singleFamilyImageMargin' />
+                            <span className='homeContent mx-auto pb-4 gap-4'>
+                                <img src={SingleHomeImage} alt='SingleHomeImage' className='pt-4 w-auto h-auto' />
                                 Single Family
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-sm-4 col-5">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -40,12 +42,12 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === 'Mobile Home'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='construction-span homeContent '>
-                                <img src={MobileHomeImage} alt='DuplexImage' className='mobileHomeImageMargin' />
+                            <span className='homeContent mx-auto pb-4 pt-3 gap-4'>
+                                <img src={MobileHomeImage} alt='DuplexImage' className='pt-2 w-auto h-auto' />
                                 Mobile Home</span>
                         </label>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-sm-4 col-5">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -54,13 +56,13 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === '2-4 Family'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='construction-span homeContent '>
-                                <img src={TriplexImage} alt='TriplexImage' className='triplexImageMargin' />
+                            <span className='homeContent mx-auto pb-4 gap-4'>
+                                <img src={TriplexImage} alt='TriplexImage' className='pt-4 w-auto h-auto' />
                                 2-4 Family
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-sm-4 col-5">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -69,8 +71,8 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === 'Other Residential'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='construction-span homeContent '>
-                                <img src={QuadplexImage} alt='QuadplexImage' className='quadplexImageMargin' />
+                            <span className='homeContent mx-auto pb-4 pt-3 gap-4'>
+                                <img src={QuadplexImage} alt='QuadplexImage' className='pt-4 w-auto h-auto' />
                                 Other Residential
                             </span>
                         </label>

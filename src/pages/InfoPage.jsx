@@ -10,7 +10,7 @@ const InfoPage = () => {
                 <Nav />
             </Row>
             <Row className='infoRow2'>
-                <div className='infoMainText'>
+                <div className='infoMainText text-center'>
                     <p className='infoP1'>Flood Insurance</p>
                     <p className='infoP2'>Insure your prized possession in few easy steps</p>
                     <CardMain />

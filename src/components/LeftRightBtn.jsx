@@ -11,20 +11,20 @@ const LeftRightBtn = ({ currentPage, setCurrentPage, formData, setEmptyField }) 
     const navigate = useNavigate();
 
     return (
-        <div className='left-rigt-btn-div'>
+        <div className='mx-auto my-auto d-flex gap-3'>
             {currentPage !== 0 &&
                 <span>
                     <Button
-                        className="info-btn-common"
+                        className="w-100 h-100 rounded-circle info-btn-common "
                         type='submit'
                         onClick={() => { setCurrentPage(currPage => currPage - 1) }}
                     >
                         <InfoBtnLeft />
                     </Button>
                 </span>}
-            <span className='right-btn-span'>
+            <span className=''>
                 <Button
-                    className="info-btn-common"
+                    className="w-100 h-100 rounded-circle info-btn-common "
                     type='submit'
                     onClick={() => {
                         if (currentPage === 8) {

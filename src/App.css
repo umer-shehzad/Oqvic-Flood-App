@@ -130,10 +130,10 @@
   
   .cardStyle {
     background-color: #FFF;
-    width: 70%;
-    height: 82% !important;
-    margin-top: 45px;
-    margin-left: 200px;
+    /* width: 70%;
+    height: 82% !important; */
+    /* margin-top: 45px; */
+    /* margin-left: 200px; */
     border-radius: 15px !important;
     overflow: hidden;
     position: relative;
@@ -171,14 +171,14 @@
   }
   
   .info-btn {
-    border-radius: 62px !important;
+    /* border-radius: 62px !important;
     width: 71px;
     height: 71px;
     background: #F00 !important;
     border-color: #F00 !important;
     margin-top: 50px;
     margin-left: 485px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
   }
   
   .infoP1 {
@@ -189,7 +189,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-left: 480px;
+    /* margin-left: 480px; */
   }
   
   .infoP2 {
@@ -199,7 +199,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-left: 450px;
+    /* margin-left: 450px; */
   }
   
   .infoMainText {
@@ -213,7 +213,7 @@
     font-style: normal !important;
     font-weight: 700 !important;
     line-height: normal !important;
-    margin-top: 70px !important;
+    /* margin-top: 70px !important; */
     /* margin-left: 400px; */
   }
   
@@ -224,7 +224,7 @@
     font-style: normal !important;
     font-weight: 700 !important;
     line-height: normal !important;
-    margin-top: 13px !important;
+    /* margin-top: 13px !important; */
     /* margin-left: 410px; */
   }
   
@@ -250,17 +250,17 @@
   }
   
   .gender div.genderRow {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     /* gap: 200px; */
     /* margin-left: 190px; */
   }
   
   .genderSpan {
-    width: 130px !important;
-    height: 135px !important;
+    /* width: 100% !important;
+    height: 100% !important; */
     color: #CF473E !important;
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -274,8 +274,8 @@
   }
   
   .genderImageMargin {
-    margin-bottom: 15px;
-    margin-top: 5px;
+    /* margin-bottom: 15px; */
+    /* margin-top: 5px; */
   }
   
   .mrsMarginLeft {
@@ -287,69 +287,69 @@
   }
   
   .searchIcon {
-    margin-left: 15px !important;
+    /* margin-left: 15px !important; */
   }
   
   .input1-page2 {
-    border: none;
-    outline: none;
-    margin-left: 20px;
-    width: 70%;
-    height: 45px;
+    /* border: none;
+    outline: none; */
+    /* margin-left: 20px; */
+    /* width: 70%; */
+    /* height: 45px; */
   }
   
   .input2-page2 {
-    border: none;
-    outline: none;
-    width: 7%;
-    height: 45px;
-    margin-left: 20px;
+    /* border: none;
+    outline: none; */
+    width: 8%;
+    /* height: 45px; */
+    /* margin-left: 20px; */
   }
   
   .input-div-page2 {
-    border-radius: 15.074px;
+    border-radius: 15px;
     border: 1.5px solid #021A56;
-    width: 808px;
-    height: 60px;
-    align-items: center;
-    display: flex;
+    width: 95%;
+    height: 50px;
+    /* align-items: center; */
+    /* display: flex; */
   }
   
   .input1-page2::placeholder {
     color: #797292;
     font-family: Poppins;
-    font-size: 14.187px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 200px;
+    /* width: 200px; */
   }
   
   .input2-page2::placeholder {
     color: #797979;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    display: flex;
+    /* display: flex;
     width: 40px;
     height: 23px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     /* flex-shrink: 0; */
     /* align-content: center !important; */
   }
   
   .horizontal-line {
-    margin-left: 80px !important;
+    /* margin-left: 80px !important; */
   
   }
   
   .text-div-page2 {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
     /* justify-content: space-around; */
   }
   
@@ -364,7 +364,7 @@
     /* width: 526px; */
   }
   
-  .span2-page2 {
+  /* .span2-page2 {
     margin-left: 584px;
     color: #021A56;
     font-family: Montserrat;
@@ -372,7 +372,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-  }
+  } */
   
   .map-image {
     margin-top: 18px;
@@ -380,9 +380,9 @@
   }
   
   .info-btn-common {
-    border-radius: 62px !important;
-    width: 71px;
-    height: 71px;
+    /* border-radius: 62px !important; */
+    /* width: 71px; */
+    /* height: 71px; */
     background: #F00 !important;
     border-color: #F00 !important;
   }
@@ -408,89 +408,91 @@
   }
   
   .left-rigt-btn-div {
-    margin-left: 440px;
-    margin: auto;
+    /* margin-left: 440px;
+    margin: auto; */
   }
   
   .right-btn-span {
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   
   .p1-page3 {
-    color: #F00 !important;
-    font-family: Montserrat !important;
+    /* color: #F00 !important; */
+    /* font-family: Montserrat !important;
     font-size: 24px !important;
     font-style: normal !important;
     font-weight: 700 !important;
-    line-height: normal !important;
+    line-height: normal !important; */
     /* margin-left: 420px !important; */
-    margin-top: 25px !important;
+    /* margin-top: 25px !important; */
   }
   
   .p2-page3 {
-    color: #021A56 !important;
+    /* color: #021A56 !important;
     font-family: Montserrat !important;
     font-size: 18px !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    line-height: normal !important;
+    line-height: normal !important; */
     /* margin-left: 350px !important; */
-    margin-top: 22px !important;
+    /* margin-top: 22px !important; */
   }
   
   .construction-span {
-    width: 150px !important;
+    /* width: 150px !important;
     height: 170px !important;
-    margin-bottom: 23px;
+    margin-bottom: 23px; */
   }
   
   .homeContent {
     flex-direction: column;
     color: #021A56 !important;
-    text-align: center;
+    /* text-align: center; */
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
+    display: flex;
+    width: 114% !important;
+    height: 180px !important;
+    /* align-items: center; */
+    /* gap: 10px; */
   }
   
   .homeMarginLeft {
-    margin-left: 180px;
+    /* margin-left: 180px; */
   }
   
   .singleHomeImageMargin {
-    margin-bottom: 15px;
-    margin-top: 20px;
+    /* margin-bottom: 15px;
+    margin-top: 20px; */
   }
   
   .duplexImageMargin {
-    margin-top: 32px;
-    margin-bottom: 14px;
+    /* margin-top: 32px;
+    margin-bottom: 14px; */
   }
   
   .triplexImageMargin {
-    margin-top: 25px;
-    margin-bottom: 14px;
+    /* margin-top: 25px;
+    margin-bottom: 14px; */
   }
   
   .quadplexImageMargin {
-    margin-top: 32px;
-    margin-bottom: 16px;
+    /* margin-top: 32px;
+    margin-bottom: 16px; */
   }
   
   .mobileHomeImageMargin {
-    margin-top: 19px;
-    margin-bottom: 14px;
+    /* margin-top: 19px;
+    margin-bottom: 14px; */
   }
   
   .singleFamilyImageMargin {
-    margin-bottom: 18px;
-    margin-top: 20px;
+    /* margin-bottom: 18px;
+    margin-top: 20px; */
   }
   
   .p2-page5 {
@@ -498,16 +500,16 @@
   }
   
   .row-gap-custom {
-    gap: 25px;
+    /* gap: 25px; */
     /* margin-bottom: 90px; */
   }
   
   .nonImageMargin {
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   
   .radio-page6 {
-    margin-top: -5px !important;
+    /* margin-top: -5px !important; */
   }
   
   .para-page6 {
@@ -517,15 +519,15 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 0px;
-    margin-top: 40px;
+    /* margin-bottom: 0px;
+    margin-top: 40px; */
   }
   
   .span-page6 {
     border-radius: 15px !important;
     border: 1px solid #000 !important;
-    width: 243px !important;
-    height: 59px !important;
+    /* width: auto !important; */
+    /* height: 59px !important; */
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Montserrat;
     color: #021A56;
@@ -561,18 +563,18 @@
   }
   
   .input-number-page7 {
-    width: 532px !important;
+    /* width: 532px !important; */
     height: 59px !important;
     border-radius: 8px;
     border: 1px solid #000;
   }
   
   .para1-page7 {
-    margin-top: 100px;
+    /* margin-top: 100px; */
   }
   
   .para2-page7 {
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   
   .para1-page8 {
@@ -582,7 +584,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-right: 205px;
+    /* margin-right: 205px; */
   }
   
   .input-number-page8 {
@@ -593,7 +595,7 @@
   }
   
   .div-page8 {
-    width: 532px !important;
+    /* width: 532px !important; */
     height: 49px !important;
     border-radius: 8px;
     border: 1px solid #000;
@@ -603,12 +605,12 @@
   }
   
   .horizontal-red-rightline-page8 {
-    margin-left: 25px;
+    /* margin-left: 25px; */
   }
   
   .span-right-page8 {
-    margin-right: 20px;
-    color: #FF0000;
+    /* margin-right: 20px; */
+    /* color: #FF0000; */
   }
   
   .input-border {
@@ -619,7 +621,7 @@
   }
   
   .custom-width {
-    width: 62%;
+    /* width: 62%; */
   }
   
   .span-custom-style {
@@ -633,7 +635,7 @@
   }
   
   .number-custom-style {
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
   
   .input-border:focus {
@@ -652,15 +654,15 @@
   }
   
   .para-margin-right {
-    margin-right: 235px;
+    /* margin-right: 235px; */
   }
   
   .div-margin-top-page8 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   
   .btn-page8 {
-    margin-top: -35px;
+    /* margin-top: -35px; */
   }
   
   .input-number-page8::placeholder {
@@ -681,8 +683,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-right: 176px;
-    margin-top: 10px;
+    /* margin-right: 110px; */
+    /* margin-top: 10px; */
   }
   
   .para2-page9 {
@@ -693,8 +695,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-right: 15px;
-    margin-top: 5px;
+    /* margin-right: 15px;
+    margin-top: 5px; */
   }
   
   .para3-page9 {
@@ -705,7 +707,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 544px;
+    /* width: 77%; */
   }
   
   .para4-page9 {
@@ -716,8 +718,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 549px;
-    margin-top: 5px;
+    /* margin-left: 113px; */
+    /* width: 549px;
+    margin-top: 5px; */
   }
   
   .label-page9 {
@@ -728,14 +731,14 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   
   .input-page9 {
     border-radius: 7px;
     border: 0.881px solid #000;
-    width: 549px !important;
-    height: 51.961px !important;
+    /* width: 549px !important; */
+    height: 50px !important;
   }
   
   .input-page9::placeholder {
@@ -750,13 +753,13 @@
   }
   
   .h-line-page9 {
-    width: 646px;
+    /* width: 646px; */
     height: 1px;
     background: #9C9C9C;
   }
   
-  .input-gap-page9 {
-    margin-bottom: 10px;
+  .text-style {
+    text-align: justify;
   }
   
   .progress-bar {

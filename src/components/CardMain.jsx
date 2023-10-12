@@ -75,7 +75,8 @@ const CardMain = () => {
     }
 
     return (
-        <Card className='cardStyle'>
+        // <Card className='cardStyle mx-auto mt-5 w-75 h-75 overflow-auto'>
+        <Card className='cardStyle mx-auto mt-5 w-75 h-75'>
             <div>
                 {PageDisplay(emptyField)}
             </div>

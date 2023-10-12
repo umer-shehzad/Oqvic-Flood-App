@@ -9,13 +9,18 @@ import MissImage from '../../assets/miss.png';
 const GenderInfo = ({ formData, setFormData, emptyField }) => {
     return (
         <>
-            <Card.Body className='d-flex flex-column align-items-center'>
+            <Card.Body className=''>
                 <Card.Title className='cardTitle mt-3'>Welcome!</Card.Title>
                 <Card.Subtitle className="cardSubTitle mt-2">Let’s begin with your name</Card.Subtitle>
             </Card.Body>
-            <div className='gender'>
-                <div className="row genderRow row-gap-custom align-items-baseline justify-content-center">
-                    <div class="col-sm-6 col-md-2">
+            <div className=''>
+                <div 
+                    className="row mt-2 mt-lg-4 mt-md-4 mt-sm-4 
+                    align-items-baseline justify-content-center
+                    gap-1 gap-lg-3 gap-md-3 gap-sm-3
+                    "
+                >
+                    <div class="col-6 col-lg-2 col-md-3 col-sm-3">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -24,13 +29,17 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                                 checked={formData.genderType === 'Mr.'}
                                 onChange={(e) => setFormData({ ...formData, genderType: e.target.value })}
                             />
-                            <span className='genderSpan genderContent '>
-                                <img src={MrImage} alt='MrImage' className='genderImageMargin' />
+                            <span className='genderSpan genderContent mx-auto
+                            w-auto h-auto  '>
+                                <img src={MrImage} alt='MrImage' 
+                                className='mt-1 mb-2 
+                                w-auto h-auto' 
+                                />
                                 Mr.
                             </span>
                         </label>
                     </div>
-                    <div class="col-sm-6 col-md-2">
+                    <div class="col-6 col-lg-2 col-md-3 col-sm-3">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -39,12 +48,16 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                                 checked={formData.genderType === 'Mrs.'}
                                 onChange={(e) => setFormData({ ...formData, genderType: e.target.value })}
                             />
-                            <span className='genderSpan genderContent'>
-                                <img src={MrsImage} alt='MrsImage' className='genderImageMargin' />
+                            <span className='genderSpan genderContent mx-auto
+                            w-auto h-auto'>
+                                <img src={MrsImage} alt='MrsImage' 
+                                className='mt-1 mb-2 
+                                w-auto h-auto' 
+                                />
                                 Mrs.</span>
                         </label>
                     </div>
-                    <div class="col-sm-6 col-md-2">
+                    <div class="col-6 col-lg-2 col-md-3 col-sm-3">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -53,8 +66,12 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                                 checked={formData.genderType === 'Miss.'}
                                 onChange={(e) => setFormData({ ...formData, genderType: e.target.value })}
                             />
-                            <span className='genderSpan genderContent'>
-                                <img src={MissImage} alt='MissImage' className='genderImageMargin' />
+                            <span className='genderSpan genderContent mx-auto
+                            w-auto h-auto'>
+                                <img src={MissImage} alt='MissImage' 
+                                className='mt-1 mb-2 
+                                w-auto h-auto' 
+                                />
                                 Miss.
                             </span>
                         </label>
@@ -66,7 +83,7 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                     type='text'
                     placeholder='Full name'
                     onChange={(e) => setFormData({ ...formData, genderFullName: e.target.value })}
-                    className='fullName mb-2'
+                    className='fullName mt-lg-5 mt-2 mt-md-5 mt-sm-5 mb-3'
                     required
                 />
                 <div className='error-full-name'>
