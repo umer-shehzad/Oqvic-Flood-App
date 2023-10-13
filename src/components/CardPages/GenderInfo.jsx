@@ -15,12 +15,12 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
             </Card.Body>
             <div className=''>
                 <div 
-                    className="row mt-2 mt-lg-4 mt-md-4 mt-sm-4 
+                    className="row mt-4 mt-lg-4 mt-md-4 mt-sm-4 
                     align-items-baseline justify-content-center
                     gap-1 gap-lg-3 gap-md-3 gap-sm-3
                     "
                 >
-                    <div class="col-6 col-lg-2 col-md-3 col-sm-3">
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -33,13 +33,13 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             w-auto h-auto  '>
                                 <img src={MrImage} alt='MrImage' 
                                 className='mt-1 mb-2 
-                                w-auto h-auto' 
+                                mw-100 mh-100' 
                                 />
                                 Mr.
                             </span>
                         </label>
                     </div>
-                    <div class="col-6 col-lg-2 col-md-3 col-sm-3">
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -52,12 +52,12 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             w-auto h-auto'>
                                 <img src={MrsImage} alt='MrsImage' 
                                 className='mt-1 mb-2 
-                                w-auto h-auto' 
+                                mw-100 mh-100' 
                                 />
                                 Mrs.</span>
                         </label>
                     </div>
-                    <div class="col-6 col-lg-2 col-md-3 col-sm-3">
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -70,7 +70,7 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             w-auto h-auto'>
                                 <img src={MissImage} alt='MissImage' 
                                 className='mt-1 mb-2 
-                                w-auto h-auto' 
+                                mw-100 mh-100' 
                                 />
                                 Miss.
                             </span>
@@ -83,7 +83,7 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                     type='text'
                     placeholder='Full name'
                     onChange={(e) => setFormData({ ...formData, genderFullName: e.target.value })}
-                    className='fullName mt-lg-5 mt-2 mt-md-5 mt-sm-5 mb-3'
+                    className='fullName mt-lg-5 mt-5 mt-md-5 mt-sm-5 '
                     required
                 />
                 <div className='error-full-name'>

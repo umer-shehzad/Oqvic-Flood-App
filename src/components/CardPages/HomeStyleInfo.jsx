@@ -10,15 +10,15 @@ import QuadplexImage from '../../assets/quadplex.png';
 const HomeStyleInfo = ({ formData, setFormData }) => {
     return (
         <>
-            <Card.Body className=''>
+            <Card.Body className='pb-0'>
                 <Card.Title className='cardTitle mt-3'>Style of Home</Card.Title>
                 <Card.Subtitle className="cardSubTitle mt-2">Select the style of your home</Card.Subtitle>
             </Card.Body>
             <div className=''>
                 <div className="row justify-content-center
-                mt-2 mt-lg-4 mt-md-4 mt-sm-4 mb-sm-3 mb-3
-                gap-lg-3 gap-md-3 gap-sm-3">
-                    <div class="col-md-2 col-sm-4 col-5">
+                mt-2 mt-lg-4 mt-md-4 mt-sm-0 mb-sm-0 mb-0
+                gap-lg-3 gap-md-3 gap-sm-2 gap-2">
+                    <div class="col-md-2 col-sm-4 col-4">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -33,7 +33,7 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-5">
+                    <div class="col-md-2 col-sm-4 col-4">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -48,7 +48,7 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-5">
+                    <div class="col-md-2 col-sm-4 col-4">
                         <label class="radio">
                             <input
                                 type="radio"
@@ -63,7 +63,7 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-5">
+                    <div class="col-md-2 col-sm-4 col-4">
                         <label class="radio">
                             <input
                                 type="radio"

@@ -39,12 +39,13 @@ const FloodInfo = ({ formData, setFormData }) => {
 
             <p className='para-page6 d-flex justify-content-center mb-4 mt-5'>Number of Floors above ground?</p>
 
-            <div className="row d-flex justify-content-center">
+            <div className=" d-flex justify-content-center">
                 <input
                     type="number"
                     name="radio"
                     value={formData.noOfFloors}
                     className='input-number-page7 w-50'
+                    required
                     onChange={(e) => setFormData({ ...formData, noOfFloors: e.target.value })}
                 />
             </div>

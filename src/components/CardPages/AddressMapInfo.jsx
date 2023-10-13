@@ -15,12 +15,12 @@ const AddressMapInfo = ({ formData, setFormData }) => {
         <span className='heading-span-page2'> {formData.genderFullName} </span>
         What’s your property address?</p>
 
-      <div className="form-div">
+      <div className="form-div mt-4">
         <div className='d-flex mb-2 justify-content-between'>
-          <span className='span1-page2 ms-4'>Property Address</span>
-          <span className='span1-page2 me-5'>Unit #</span>
+          <span className='span1-page2 ms-lg-4 ms-md-3 ms-sm-2 ms-2'>Property Address</span>
+          <span className='span2-page2 span1-page2'>Unit #</span>
         </div>
-        <div className='input-div-page2 d-flex align-items-center ms-4'>
+        <div className='input-div-page2 d-flex align-items-center ms-lg-4 ms-md-3 ms-sm-2 ms-2 mw-100'>
           <div className="ms-2"><SearchIcon /></div>
           <input
             type="text"
@@ -28,17 +28,17 @@ const AddressMapInfo = ({ formData, setFormData }) => {
             value={formData.address}
             onChange={(e) => setFormData({ ...formData, address: e.target.value })}
             placeholder="Enter address of home you want to insure"
-            className="input1-page2 w-75 h-75 ms-2 ps-3 border-0"
+            className="input1-page2 w-75 h-75 ms-1 ps-3 border-0"
             required
           />
-          <div className="me-4 ms-lg-5 ms-md-3 ms-sm-2 ms-2"><HorizontalLineIcon /></div>
+          <div className="horizontal-line-pos ms-2"><HorizontalLineIcon /></div>
           <input
             type="number"
             id="unitNumber"
             value={formData.unit}
             onChange={(e) => setFormData({ ...formData, unit: e.target.value })}
             placeholder="Unit"
-            className="input2-page2 h-75 me-1 border-0"
+            className="input2-page2 h-75 border-0"
             required
           />
         </div>
