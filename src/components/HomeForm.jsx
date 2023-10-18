@@ -72,7 +72,7 @@ const HomeForm = () => {
         />
       </Form.Group>
 
-      <Button type="submit" className='home-btn'>      
+      <Button type="submit" className='home-btn w-75 h-25'>      
         <span className='home-btn-text'><HomeBtnIcon />Start Quote</span>
       </Button>
     </Form>

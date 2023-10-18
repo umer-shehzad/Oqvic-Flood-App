@@ -3,8 +3,8 @@ import React from 'react'
 const PhoneBusinessMailInfo = ({ formData, setFormData }) => {
     return (
         <>
-            <div className='d-flex flex-column align-items-center text-style'>
-                <p className='para1-page9 mt-3 mb-2 me-4 w-50'>Lastly, please confrim the following.</p>
+            <div className='d-flex flex-column align-items-center text-style mx-auto'>
+                <p className='para1-page9 mt-3 mb-1 me-4 w-50'>Lastly, please confrim the following.</p>
 
                 <label className='label-page9 w-50 me-4 mb-2'>Your phone number</label>
                 <input
@@ -17,7 +17,7 @@ const PhoneBusinessMailInfo = ({ formData, setFormData }) => {
                 />
 
                 <p className='para2-page9 w-50 mt-2 mb-2 me-4'>*we will use phone number to verify important information regarding property.</p>
-                <p className='para3-page9 w-50 me-4'>If the owner of this property is a Business (LLC, Trust, or similar), please enter the Business Name below. This is the name that will appear as the Named Insured on the policy.</p>
+                <p className='para3-page9 w-50 me-4 mb-1'>If the owner of this property is a Business (LLC, Trust, or similar), please enter the Business Name below. This is the name that will appear as the Named Insured on the policy.</p>
 
                 <input
                     type="text"
@@ -28,7 +28,7 @@ const PhoneBusinessMailInfo = ({ formData, setFormData }) => {
                     onChange={(e) => setFormData({ ...formData, businessName: e.target.value })}
                 />
 
-                <hr className='h-line-page9 my-2 w-75' />
+                <hr className='h-line-page9 my-1 w-75' />
 
 
                 <label className='label-page9 my-2 w-50 me-4'>Your mailing address</label>
