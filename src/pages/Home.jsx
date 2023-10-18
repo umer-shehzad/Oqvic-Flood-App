@@ -13,10 +13,10 @@ const FloodHome = () => {
             <img src={FloodHomeImage} alt='flood-home-image' width="100%" height="100%" />
           </div>
         </div>
-        <div className="col d-flex flex-column justify-content-center justify-content-lg-center">
-          <p className='text1 mb-1'>Who will be insure</p>
-          <p className='text2 mb-0'>Save more by using OQVIC to insure</p>
-          <HomeForm />
+        <div className="col d-flex flex-column justify-content-center home-col-2">
+            <p className='text1 mb-1'>Who will be insure</p>
+            <p className='text2 mb-0'>Save more by using OQVIC to insure</p>
+            <HomeForm />
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 90px;
+  /* margin-left: 90px; */
 }
 
 .text2 {
@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 90px;
+  /* margin-left: 90px; */
 }
 
 input.user[type="radio"] {
@@ -63,7 +63,7 @@ label.radio input:checked+span {
 }
 
 .formStyle {
-  margin-left: 90px;
+  /* margin-left: 90px; */
 }
 
 .emailStyle {
@@ -76,7 +76,17 @@ label.radio input:checked+span {
   border-radius: 62px !important;
   background: #F00 !important;
   border-color: #F00 !important;
+  width: 75%;
+  height: 25%;
 }
+
+/* Media queries for Start Quote button */
+@media screen and (max-width: 992px) {
+  .home-btn {
+    width: 60%;
+  }
+}
+/* Media Queries End */
 
 .home-btn-text {
   color: #FFF;
@@ -569,3 +579,26 @@ label.radio input:checked+span {
   color: #F00;
   margin-right: 350px;
 }
+
+.home-col-2 {
+  margin-left: 90px;
+}
+
+/* Media Query for Home Col - 2 */
+@media screen and (max-width: 992px) {
+  .home-col-2 {
+    margin-left: 200px;
+    margin-top: 150px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-col-2 {
+    margin-left: 130px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home-col-2 {
+    margin-left: 60px;
+  }
+}
+/* End */
