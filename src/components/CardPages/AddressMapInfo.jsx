@@ -28,7 +28,7 @@ const AddressMapInfo = ({ formData, setFormData }) => {
             value={formData.address}
             onChange={(e) => setFormData({ ...formData, address: e.target.value })}
             placeholder="Enter address of home you want to insure"
-            className="input1-page2 w-75 h-75 ms-1 ps-3 border-0"
+            className="input1-page2 h-75 ms-2 ps-3 border-0"
             required
           />
           <div className="horizontal-line-pos ms-2"><HorizontalLineIcon /></div>

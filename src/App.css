@@ -244,8 +244,47 @@ label.radio input:checked+span {
 
 .input-div-page2 .horizontal-line-pos{
   position: absolute;
-  left: 86%;
+  left: 85%;
   overflow-wrap: normal;
+  /* @media (max-width: 768px) {
+    left: 50;
+  } */
+}
+
+/* Media queries for horizontal line */
+@media screen and (max-width: 992px) {
+  .input-div-page2 .horizontal-line-pos {
+    left: 83%;
+  }
+  .input-div-page2 .input2-page2{
+    left: 89%;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .input-div-page2 .horizontal-line-pos {
+    left: 79%;
+  }
+  .input-div-page2 .input2-page2{
+    left: 85%;
+    width: 14%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .input-div-page2 .horizontal-line-pos {
+    left: 78%;
+  }
+  .input-div-page2 .input2-page2{
+    left: 83%;
+    width: 16%;
+  }
+}
+/* Media queries End */
+
+.input1-page2{
+  width: 65%
 }
 
 .input1-page2::placeholder {
@@ -306,6 +345,27 @@ label.radio input:checked+span {
   position: absolute;
   left: 89%;
 }
+
+/* Media queries for Unit# (text) */
+@media screen and (max-width: 992px) {
+  .form-div .span2-page2 {
+    left: 87%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-div .span2-page2 {
+    left: 82%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form-div .span2-page2 {
+    left: 81%;
+  }
+}
+/* Media queries End */
+
 
 .homeContent {
   flex-direction: column;
