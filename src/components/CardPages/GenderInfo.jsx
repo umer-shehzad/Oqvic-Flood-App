@@ -20,8 +20,8 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                     gap-1 gap-lg-3 gap-md-3 gap-sm-3
                     "
                 >
-                    <div class="col-3 col-lg-2 col-md-3 col-sm-3">
-                        <label class="radio">
+                    <div className="col-3 col-lg-2 col-md-3 col-sm-3">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
@@ -39,8 +39,8 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             </span>
                         </label>
                     </div>
-                    <div class="col-3 col-lg-2 col-md-3 col-sm-3">
-                        <label class="radio">
+                    <div className="col-3 col-lg-2 col-md-3 col-sm-3">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
@@ -57,8 +57,8 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                                 Mrs.</span>
                         </label>
                     </div>
-                    <div class="col-3 col-lg-2 col-md-3 col-sm-3">
-                        <label class="radio">
+                    <div className="col-3 col-lg-2 col-md-3 col-sm-3">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
