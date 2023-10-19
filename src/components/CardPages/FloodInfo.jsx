@@ -10,10 +10,9 @@ const FloodInfo = ({ formData, setFormData }) => {
             <div className="row d-flex justify-content-center
             mt-2 mt-lg-3 mt-md-3 mt-sm-3
             gap-lg-3 gap-md-3 gap-sm-3">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-5">
                     <label class="radio">
                         <input
-                            id='Red'
                             type="radio"
                             name="radio"
                             value="Yes, it is"
@@ -23,7 +22,7 @@ const FloodInfo = ({ formData, setFormData }) => {
                         <span className='span-page6 ps-lg-5 ps-md-4 ps-sm-3 ps-2 w-auto'>Yes, it is </span>
                     </label>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-5">
                     <label class="radio">
                         <input
                             type="radio"
@@ -44,7 +43,7 @@ const FloodInfo = ({ formData, setFormData }) => {
                     type="number"
                     name="radio"
                     value={formData.noOfFloors}
-                    className='input-number-page7 w-50'
+                    className='input-number-page7'
                     required
                     onChange={(e) => setFormData({ ...formData, noOfFloors: e.target.value })}
                 />

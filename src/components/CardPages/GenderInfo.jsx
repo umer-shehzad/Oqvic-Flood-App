@@ -14,7 +14,7 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                 <Card.Subtitle className="cardSubTitle mt-2">Let’s begin with your name</Card.Subtitle>
             </Card.Body>
             <div className=''>
-                <div 
+                <div
                     className="row mt-4 mt-lg-4 mt-md-4 mt-sm-4 
                     align-items-baseline justify-content-center
                     gap-1 gap-lg-3 gap-md-3 gap-sm-3
@@ -31,9 +31,9 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             />
                             <span className='genderSpan genderContent mx-auto
                             w-auto h-auto  '>
-                                <img src={MrImage} alt='MrImage' 
-                                className='mt-1 mb-2 
-                                mw-100 mh-100' 
+                                <img src={MrImage} alt='MrImage'
+                                    className='mt-1 mb-2 
+                                mw-100 mh-100'
                                 />
                                 Mr.
                             </span>
@@ -50,9 +50,9 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             />
                             <span className='genderSpan genderContent mx-auto
                             w-auto h-auto'>
-                                <img src={MrsImage} alt='MrsImage' 
-                                className='mt-1 mb-2 
-                                mw-100 mh-100' 
+                                <img src={MrsImage} alt='MrsImage'
+                                    className='mt-1 mb-2 
+                                mw-100 mh-100'
                                 />
                                 Mrs.</span>
                         </label>
@@ -68,9 +68,9 @@ const GenderInfo = ({ formData, setFormData, emptyField }) => {
                             />
                             <span className='genderSpan genderContent mx-auto
                             w-auto h-auto'>
-                                <img src={MissImage} alt='MissImage' 
-                                className='mt-1 mb-2 
-                                mw-100 mh-100' 
+                                <img src={MissImage} alt='MissImage'
+                                    className='mt-1 mb-2 
+                                mw-100 mh-100'
                                 />
                                 Miss.
                             </span>

@@ -17,7 +17,7 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
             <div className=''>
                 <div className="row justify-content-center
                     mt-2 mt-lg-4 mt-md-4 mt-sm-0 mb-sm-0 mb-0
-                    gap-lg-3 gap-md-3 gap-sm-2 gap-2">
+                    gap-lg-3 gap-md-3 gap-sm-1 gap-1">
                     <div class="col-md-2 col-sm-4 col-4">
                         <label class="radio">
                             <input
@@ -27,8 +27,9 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === 'Single Family'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 gap-4'>
-                                <img src={SingleHomeImage} alt='SingleHomeImage' className='pt-4 w-auto h-auto' />
+                            <span className='homeContent gap-3'>
+                                <img src={SingleHomeImage} alt='SingleHomeImage' 
+                                className='pt-3 mw-100 mh-100' />
                                 Single Family
                             </span>
                         </label>
@@ -42,8 +43,9 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === 'Mobile Home'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 pt-3 gap-4'>
-                                <img src={MobileHomeImage} alt='DuplexImage' className='pt-2 w-auto h-auto' />
+                            <span className='homeContent gap-3'>
+                                <img src={MobileHomeImage} alt='DuplexImage' 
+                                className='pt-3 mw-100 mh-100' />
                                 Mobile Home</span>
                         </label>
                     </div>
@@ -56,8 +58,9 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === '2-4 Family'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 gap-4'>
-                                <img src={TriplexImage} alt='TriplexImage' className='pt-4 w-auto h-auto' />
+                            <span className='homeContent gap-3'>
+                                <img src={TriplexImage} alt='TriplexImage' 
+                                className='pt-4 mw-100 mh-100' />
                                 2-4 Family
                             </span>
                         </label>
@@ -71,8 +74,9 @@ const OccupancyTypeInfo = ({ formData, setFormData }) => {
                                 checked={formData.occupancyType === 'Other Residential'}
                                 onChange={(e) => setFormData({ ...formData, occupancyType: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 pt-3 gap-4'>
-                                <img src={QuadplexImage} alt='QuadplexImage' className='pt-4 w-auto h-auto' />
+                            <span className='homeContent gap-3'>
+                                <img src={QuadplexImage} alt='QuadplexImage' 
+                                className='pt-4 mw-100 mh-100' />
                                 Other Residential
                             </span>
                         </label>

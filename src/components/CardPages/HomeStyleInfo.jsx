@@ -17,9 +17,9 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
             <div className=''>
                 <div className="row justify-content-center
                 mt-2 mt-lg-4 mt-md-4 mt-sm-0 mb-sm-0 mb-0
-                gap-lg-3 gap-md-3 gap-sm-2 gap-2">
-                    <div class="col-md-2 col-sm-4 col-4">
-                        <label class="radio">
+                gap-lg-3 gap-md-3 gap-sm-1 gap-1">
+                    <div className="col-md-2 col-sm-4 col-4">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
@@ -27,14 +27,15 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                                 checked={formData.styleOfHome === 'Quadplex'}
                                 onChange={(e) => setFormData({ ...formData, styleOfHome: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 pt-3 gap-4'>
-                                <img src={QuadplexImage} alt='QuadplexImage' className='pt-4 w-auto h-auto' />
+                            <span className='homeContent gap-4'>
+                                <img src={QuadplexImage} alt='QuadplexImage' 
+                                className='pt-4 mw-100 mh-100' />
                                 Quadplex
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-4">
-                        <label class="radio">
+                    <div className="col-md-2 col-sm-4 col-4">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
@@ -42,14 +43,15 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                                 checked={formData.styleOfHome === 'Condo/ Townhouse'}
                                 onChange={(e) => setFormData({ ...formData, styleOfHome: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 gap-4'>
-                                <img src={CondoImage} alt='CondoImage' className='pt-4 w-auto h-auto' />
+                            <span className='homeContent gap-3'>
+                                <img src={CondoImage} alt='CondoImage'
+                                className='pt-3 mw-100 mh-100' />
                                 Condo/ Townhouse
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-4">
-                        <label class="radio">
+                    <div className="col-md-2 col-sm-4 col-4">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
@@ -57,14 +59,15 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                                 checked={formData.styleOfHome === 'Non Residential'}
                                 onChange={(e) => setFormData({ ...formData, styleOfHome: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 gap-3'>
-                                <img src={NonResidentialImage} alt='NonResidentialImage' className='pt-3 w-auto h-auto' />
+                            <span className='homeContent gap-2'>
+                                <img src={NonResidentialImage} alt='NonResidentialImage' 
+                                className='pt-2 mw-100 mh-100' />
                                 Non<br />Residential
                             </span>
                         </label>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-4">
-                        <label class="radio">
+                    <div className="col-md-2 col-sm-4 col-4">
+                        <label className="radio">
                             <input
                                 type="radio"
                                 name="radio"
@@ -72,10 +75,10 @@ const HomeStyleInfo = ({ formData, setFormData }) => {
                                 checked={formData.styleOfHome === 'Non- Other Residential'}
                                 onChange={(e) => setFormData({ ...formData, styleOfHome: e.target.value })}
                             />
-                            <span className='homeContent mx-auto pb-4 gap-4'>
+                            <span className='homeContent gap-3'>
                                 <img src={NonOtherResidentialImage} alt='NonOtherResidentialImage' 
-                                className='pt-4 w-auto h-auto' />
-                                Non- Other Residential
+                                className='pt-3 mt-1 mw-100 mh-100' />
+                                Non-Other Residential
                             </span>
                         </label>
                     </div>

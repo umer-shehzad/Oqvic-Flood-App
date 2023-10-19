@@ -20,7 +20,7 @@ const AddressMapInfo = ({ formData, setFormData }) => {
           <span className='span1-page2 ms-lg-4 ms-md-3 ms-sm-2 ms-2'>Property Address</span>
           <span className='span2-page2 span1-page2'>Unit #</span>
         </div>
-        <div className='input-div-page2 d-flex align-items-center ms-lg-4 ms-md-3 ms-sm-2 ms-2 mw-100'>
+        <div className='input-div-page2 d-flex align-items-center ms-lg-4 ms-md-3 ms-sm-2 ms-2 '>
           <div className="ms-2"><SearchIcon /></div>
           <input
             type="text"

@@ -5,7 +5,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  /* margin-left: 90px; */
 }
 
 .text2 {
@@ -15,7 +14,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  /* margin-left: 90px; */
 }
 
 input.user[type="radio"] {
@@ -62,9 +60,6 @@ label.radio input:checked+span {
   color: #f00;
 }
 
-.formStyle {
-  /* margin-left: 90px; */
-}
 
 .emailStyle {
   height: 59px;
@@ -79,14 +74,6 @@ label.radio input:checked+span {
   width: 75%;
   height: 25%;
 }
-
-/* Media queries for Start Quote button */
-@media screen and (max-width: 992px) {
-  .home-btn {
-    width: 60%;
-  }
-}
-/* Media Queries End */
 
 .home-btn-text {
   color: #FFF;
@@ -237,6 +224,7 @@ label.radio input:checked+span {
 
 .input2-page2 {
   width: 8%;
+  border: none;
 }
 
 .input-div-page2 {
@@ -256,51 +244,24 @@ label.radio input:checked+span {
   position: absolute;
   left: 85%;
   overflow-wrap: normal;
-  /* @media (max-width: 768px) {
-    left: 50;
-  } */
 }
-
-/* Media queries for horizontal line */
-@media screen and (max-width: 992px) {
-  .input-div-page2 .horizontal-line-pos {
-    left: 83%;
-  }
-  .input-div-page2 .input2-page2{
-    left: 89%;
-    width: 10%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .input-div-page2 .horizontal-line-pos {
-    left: 79%;
-  }
-  .input-div-page2 .input2-page2{
-    left: 85%;
-    width: 14%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .input-div-page2 .horizontal-line-pos {
-    left: 78%;
-  }
-  .input-div-page2 .input2-page2{
-    left: 83%;
-    width: 16%;
-  }
-}
-/* Media queries End */
 
 .input1-page2{
   width: 65%
 }
 
-.input1-page2::placeholder {
+.input1-page2:focus{
+  outline: none;
+}
+
+.input2-page2:focus{
+  outline: none;
+}
+
+input.input1-page2::placeholder {
   color: #797292;
   font-family: Poppins;
-  font-size: 14px;
+  font-size: medium;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -309,7 +270,7 @@ label.radio input:checked+span {
 .input2-page2::placeholder {
   color: #797979;
   font-family: Montserrat;
-  font-size: 100%;
+  font-size: medium;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -356,45 +317,24 @@ label.radio input:checked+span {
   left: 89%;
 }
 
-/* Media queries for Unit# (text) */
-@media screen and (max-width: 992px) {
-  .form-div .span2-page2 {
-    left: 87%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .form-div .span2-page2 {
-    left: 82%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .form-div .span2-page2 {
-    left: 81%;
-  }
-}
-/* Media queries End */
-
-
 .homeContent {
   flex-direction: column;
   color: #021A56 !important;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: medium;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   display: flex;
-  width: 114% !important;
-  height: 160px !important;
+  width: 110% !important;
+  height: 150px !important;
 }
 
 .para-page6 {
   color: #021A56 !important;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: x-large;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -425,17 +365,9 @@ label.radio input:checked+span {
 
 .input-number-page7 {
   height: 59px !important;
+  width: 50% !important;
   border-radius: 8px;
   border: 1px solid #000;
-}
-
-.para1-page8 {
-  color: #021A56 !important;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 
 .input-number-page8 {
@@ -452,10 +384,10 @@ label.radio input:checked+span {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 50%;
 }
 
 .input-border {
-  border: 1px solid #F00;
   border: none;
   width: 75%;
   height: 100%;
@@ -499,40 +431,44 @@ label.radio input:checked+span {
 .para1-page9 {
   color: #000;
   font-family: Montserrat;
-  font-size: 2.3cqmax;
+  font-size: x-large;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 50%;
 }
 
 .para2-page9 {
   color: #BDBDBD;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Montserrat;
-  font-size: 10px;
+  font-size: x-small;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 50%;
 }
 
 .para3-page9 {
   color: #021A56;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: small;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  width: 50%;
 }
 
 .para4-page9 {
   color: #636363;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: small;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  width: 50%;
 }
 
 .label-page9 {
@@ -543,23 +479,25 @@ label.radio input:checked+span {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  width: 50%;
 }
 
 .input-page9 {
   border-radius: 7px;
   border: 1px solid #000;
-  
+  height: 50px !important;
+  width: 50%;
 }
 
-.input-page9::placeholder {
+input.input-page9::placeholder {
   color: #021A56;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Montserrat;
-  font-size: 13.21px;
+  font-size: small;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding: 15px;
+  padding-left: 15px;
 }
 
 .h-line-page9 {
@@ -577,28 +515,128 @@ label.radio input:checked+span {
 
 .error-full-name {
   color: #F00;
-  margin-right: 350px;
 }
 
 .home-col-2 {
   margin-left: 90px;
 }
 
-/* Media Query for Home Col - 2 */
+/****************************************RESPONSIVE DESIGN****************************************/
+/* Media Quereies */
 @media screen and (max-width: 992px) {
   .home-col-2 {
     margin-left: 200px;
     margin-top: 150px !important;
+  }
+  .input-page9 {
+    height: 40px !important;
+  }
+  .para1-page9 {
+    font-size: larger;
+  }
+  .form-div .span2-page2 {
+    left: 87%;
+  }
+  .input-div-page2 .horizontal-line-pos {
+    left: 83%;
+  }
+  .input-div-page2 .input2-page2{
+    left: 89%;
+    width: 10%;
+  }
+  .home-btn {
+    width: 60%;
   }
 }
 @media screen and (max-width: 768px) {
   .home-col-2 {
     margin-left: 130px;
   }
+  .para1-page9 {
+    width: 75%;
+  }
+  .para2-page9 {
+    width: 75%;
+  }
+  .para3-page9 {
+    width: 75%;
+  }
+  .para4-page9 {
+    width: 75%;
+  }
+  .label-page9 {
+    width: 75%;
+  }
+  .input-page9 {
+    width: 75%;
+  }
+  .input-number-page7 {
+    width: 65% !important;
+  }
+  .homeContent {
+    height: 135px !important;
+  }
+  .form-div .span2-page2 {
+    left: 82%;
+  }
+  .input-div-page2 .horizontal-line-pos {
+    left: 79%;
+  }
+  .input-div-page2 .input2-page2{
+    left: 85%;
+    width: 14%;
+  }
 }
 @media screen and (max-width: 576px) {
   .home-col-2 {
     margin-left: 60px;
+  }
+  .para1-page9 {
+    font-size: medium;
+  }
+  .para2-page9 {
+    font-size: xx-small;
+  }
+  .para3-page9 {
+    font-size: x-small;
+  }
+  .para4-page9 {
+    font-size: x-small;
+  }
+  input.input-page9::placeholder {
+    font-size: xx-small;
+  }
+  input.input1-page2::placeholder { 
+    font-size: x-small;
+  }
+  input.input2-page2::placeholder { 
+    font-size: x-small;
+  }
+  .input-div-page2 {
+    height: 35px;
+    border-radius: 10px;
+  }
+  .div-page8 {
+    width: 75% ;
+  }
+  .input-number-page7 {
+    width: 75% !important;
+  }
+  .para-page6 {
+    font-size: large;
+  }
+  .homeContent {
+    font-size: smaller;
+  }
+  .form-div .span2-page2 {
+    left: 81%;
+  }
+  .input-div-page2 .horizontal-line-pos {
+    left: 78%;
+  }
+  .input-div-page2 .input2-page2{
+    left: 83%;
+    width: 16%;
   }
 }
 /* End */
