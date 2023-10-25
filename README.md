@@ -6,4 +6,4 @@
   
 - It help users to claim insurance of house suffering from flood.
 
-- Screenshots of working application available in **public/app-screenshots** folder.
+- Please click to see working application [oqvic-flood-app](https://oqvic-flood.web.app/).
